@@ -23,6 +23,7 @@ header {
 }
 
 table td {
+    table-layout: fixed;
     height: 40px;
 }
 
