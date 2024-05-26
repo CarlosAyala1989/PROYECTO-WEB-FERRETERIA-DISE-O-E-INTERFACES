@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ferretería - Lopez</title>
+    <link rel="stylesheet" href="generacion_reportes.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FERRETERIA - LOPEZ</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><span class="green-text">Inicio</span></a></li>
+                <li><a href="#"><span class="green-text">Productos</span></a></li>
+                <li><a href="#"><span class="green-text">Contacto</span></a></li>
+                <li><a href="login.html"><span class="green-text">Ingresar / Registrarse</span></a></li>
+            </ul>
+        </nav>
+        <main class="middle-left">
+            <div class="title-container">
+                <h1>ID CLIENTE/PRODUCTO</h1>
+            </div>
+            <br>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar">
+                <button type="button">Buscar</button>
+            </div>
+            <div class="filter-container"></div>
+            <h2 class="filter-text">FILTRAR:</h2>
+            <input type="date">
+            <br>
+            <br>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID Cliente</th>
+                        <th>DNI</th>
+                        <th>ID Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <th>Fecha</th>
+                        <th>Condición</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí puedes agregar las filas de la tabla con los datos correspondientes -->
+                    <tr>
+                        <td>{ID_CLIENTE}</td>
+                        <td>{DNI_CLIENTE}</td>
+                        <td>{ID_PRODUCTO}</td>
+                        <td>{CANTIDAD_TOTAL}</td>
+                        <td>{PRECIO_PRODUCTO}</td>
+                        <td>{FECHA_VENDIDA}</td>
+                        <td>{CONDICION_COMPRA}</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            &copy; 2024 Ferretería. Todos los derechos reservados.
+        </footer>
+    </div>
+</body>
+</html>
