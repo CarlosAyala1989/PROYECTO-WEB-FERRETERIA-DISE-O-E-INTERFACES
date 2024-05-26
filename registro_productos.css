@@ -21,6 +21,23 @@ nav {
     text-align: center;
 }
 
+.opciones-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.botones-container {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 2em;
+}
+
+.botones-container button {
+    padding: 0.5em 1em;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
