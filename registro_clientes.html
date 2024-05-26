@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ferretería - Lopez</title>
+    <link rel="stylesheet" href="registro_clientes.css">
+</head>
+<body>
+    <header>
+        <h1>FERRETERIA - LOPEZ</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><span class="green-text">Inicio</span></a></li>
+            <li><a href="#"><span class="green-text">Productos</span></a></li>
+            <li><a href="#"><span class="green-text">Contacto</span></a></li>
+            <li><a href="login.html"><span class="green-text">Ingresar / Registrarse</span></a></li>
+        </ul>
+    </nav>
+    <main>
+        <form>
+            <br>
+            <br>
+            <br>
+            <div class="opciones-container">
+                <div>
+                    <label for="idCliente">ID Cliente:</label>
+                    <input type="text" id="idCliente" name="idCliente"><br><br>
+                </div>
+                <div>
+                    <label for="dniCliente">DNI Cliente:</label>
+                    <input type="text" id="dniCliente" name="dniCliente"><br><br>
+                </div>
+                <div>
+                    <label for="nombres">Nombres:</label>
+                    <input type="text" id="nombres" name="nombres"><br><br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="opciones-container">
+                <div>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos"><br><br>
+                </div>
+                <div>    
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion"><br><br>
+                </div>
+                <div>   
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono"><br><br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="center-align">
+                <input type="submit" value="Guardar">
+                <input type="button" value="Modificar">
+                <input type="button" value="Nuevo">
+                <input type="button" value="Eliminar">
+            </div>
+        </form>
+        <br><br><br>
+        <table>
+            <tr>
+                <th>ID Cliente</th>
+                <th>DNI</th>
+                <th>Nombres y Apellidos</th>
+                <th>Dirección</th>
+                <th>Telefono</th>
+            </tr>
+            <tr>
+                <td>{ID_Cliente}</td>
+                <td>{DNI_Cliente}</td>
+                <td>{Nombres_Apellidos}</td>
+                <td>{Dirección}</td>
+                <td>{Numero_Telefono}</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>    
+    </main>
+
+    <footer>
+        &copy; 2024 Ferretería. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
